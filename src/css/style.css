@@ -1,0 +1,67 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    padding: 2%;
+    gap: 40px;
+    border-radius: 15px;
+    position: relative;
+}
+
+
+
+
+
+
+.container p {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 13px;
+    color: hsl(150, 100%, 66%);
+}
+
+
+
+
+.container .pattern-divider{
+    content: url(../images/pattern-divider-desktop.svg);
+    max-width: 450px;
+}
+
+.container .advice-text{
+    color: hsl(193, 38%, 86%);
+    max-width: 450px;
+    text-align: center;
+}
+
+.container .advice-generator{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+}
+.container .advice-generator button{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+
+}
+
+.container .advice-generator button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px 10px hsl(150, 100%, 66%);
+    transition: ease-in-out 0.2s;
+}

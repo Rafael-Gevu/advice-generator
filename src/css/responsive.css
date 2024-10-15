@@ -1,0 +1,22 @@
+@media (max-width:762px) {
+    .container{
+        max-width: 340px;
+        margin: auto;
+        height: 315px;
+        gap: 30px;
+    }
+
+
+    .container p{
+        padding-top: 10px;
+    }
+    .container .pattern-divider{
+        content: url(../images/pattern-divider-mobile.svg);
+    }
+    .container .advice-generator{
+        align-items: center;   
+    }
+    .container .advice-generator button{
+        bottom: -35px;
+    }
+}
